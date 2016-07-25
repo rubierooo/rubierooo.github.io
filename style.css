@@ -158,8 +158,8 @@ p.halfacross {
 
 
 .daughter {
-  width: 60vmin;
-  height: 40vmin;
+  width: 80vmin;
+  height: 50vmin;
   background-image: url("/work/daughter.png");
   background-position: center;
   background-size: contain;
