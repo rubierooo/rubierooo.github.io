@@ -151,6 +151,8 @@ a.block:hover {
   background-size: contain;
   background-repeat: no-repeat;
   float:right;
+  padding: 0;
+  margin 0;
 }
 
 h2 {
@@ -178,8 +180,6 @@ div.workcontainer {
   margin-left: : auto;
   margin-right: auto;
 }
-
-div.grid-item { width = 600px}
 
 @media screen and (max-width: 950px) {
   div.wrapper{
