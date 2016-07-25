@@ -65,6 +65,10 @@ a.block:hover {
   background-color: yellow;
 }
 
+p.halfacross {
+  padding-left: 50%;
+}
+
 .banner {
   width: 100%;
   height: 8%;
@@ -196,7 +200,7 @@ a.block:hover {
 
 .twoartists {
   width: 60vmin;
-  height: 80vmin;
+  height: 70vmin;
   background-image: url("/work/twoartists.png");
   background-position: center;
   background-size: contain;
