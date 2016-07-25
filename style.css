@@ -59,6 +59,7 @@ a.block {
   display:block;
   text-align: center;
   text-decoration: none;
+  float: left;
 }
 
 a.block:hover {
