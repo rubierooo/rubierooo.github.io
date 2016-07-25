@@ -21,7 +21,7 @@ body.pink {
 body.black {
   background-color: black;
   margin: 0px;
-  color: magenta; 
+  color: magenta;
 }
 
 
@@ -157,6 +157,17 @@ p.halfacross {
 
 
 
+.daughter {
+  width: 60vmin;
+  height: 40vmin;
+  background-image: url("/work/daughter.png");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  padding: 0;
+  margin: 0;
+  float: left;
+}
 
 .guitar {
   width: 40vmin;
