@@ -143,9 +143,36 @@ a.block:hover {
   float: left;
 }
 
-.parachute {
+
+
+
+.guitar {
   width: 40vmin;
-  height: 40vmin;
+  height: 80vmin;
+  background-image: url("/work/guitar.png");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  float:right;
+  padding: 0;
+  margin 0;
+}
+
+.oldwivestales {
+  width: 20vmin;
+  height: 35vmin;
+  background-image: url("/work/oldwivestales.png");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  float:right;
+  padding: 0;
+  margin 0;
+}
+
+.parachute {
+  width: 60vmin;
+  height: 60vmin;
   background-image: url("/work/parachute.png");
   background-position: center;
   background-size: contain;
@@ -154,6 +181,46 @@ a.block:hover {
   padding: 0;
   margin 0;
 }
+
+.theelephant {
+  width: 20vmin;
+  height: 40vmin;
+  background-image: url("/work/theelephant.png");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  float:right;
+  padding: 0;
+  margin 0;
+}
+
+.twoartists {
+  width: 60vmin;
+  height: 80vmin;
+  background-image: url("/work/twoartists.png");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  float:right;
+  padding: 0;
+  margin 0;
+}
+
+.wardrobe {
+  width: 40vmin;
+  height: 60vmin;
+  background-image: url("/work/wardrobe.png");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  float:right;
+  padding: 0;
+  margin 0;
+}
+
+
+
+
 
 h2 {
   text-align: left;
