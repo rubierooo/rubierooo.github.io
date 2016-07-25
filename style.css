@@ -155,7 +155,7 @@ a.block:hover {
   background-repeat: no-repeat;
   float:right;
   padding: 0;
-  margin 0;
+  margin: 0;
 }
 
 .oldwivestales {
@@ -167,7 +167,7 @@ a.block:hover {
   background-repeat: no-repeat;
   float:right;
   padding: 0;
-  margin 0;
+  margin: 0;
 }
 
 .parachute {
@@ -179,7 +179,7 @@ a.block:hover {
   background-repeat: no-repeat;
   float:right;
   padding: 0;
-  margin 0;
+  margin: 0;
 }
 
 .theelephant {
@@ -191,7 +191,7 @@ a.block:hover {
   background-repeat: no-repeat;
   float:right;
   padding: 0;
-  margin 0;
+  margin: 0;
 }
 
 .twoartists {
@@ -203,7 +203,7 @@ a.block:hover {
   background-repeat: no-repeat;
   float:right;
   padding: 0;
-  margin 0;
+  margin: 0;
 }
 
 .wardrobe {
@@ -215,11 +215,8 @@ a.block:hover {
   background-repeat: no-repeat;
   float:right;
   padding: 0;
-  margin 0;
+  margin: 0;
 }
-
-
-
 
 
 h2 {
