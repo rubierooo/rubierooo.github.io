@@ -21,7 +21,7 @@ body.pink {
 body.black {
   background-color: black;
   margin: 0px;
-  text-decoration-color: magenta;
+  color: magenta; 
 }
 
 
