@@ -18,6 +18,13 @@ body.pink {
   margin: 0px
 }
 
+body.black {
+  background-color: black;
+  margin: 0px;
+  text-decoration-color: magenta;
+}
+
+
 body.image {
   background-image: url("essaybg.png");
   background-size: cover;
