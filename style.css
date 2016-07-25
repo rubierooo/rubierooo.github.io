@@ -144,8 +144,8 @@ a.block:hover {
 }
 
 .parachute {
-  width: 40%;
-  height: 70%;
+  width: 40vh;
+  height: 40vh;
   background-image: url("/work/parachute.png");
   background-position: center;
   background-size: contain;
@@ -174,7 +174,8 @@ td:nth-child(1) {
 }
 
 div.workcontainer {
-  width: 80%;
+  width: 100vh;
+  height: 100vh;
   margin-left: : auto;
   margin-right: auto;
 }
