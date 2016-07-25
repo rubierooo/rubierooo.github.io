@@ -59,7 +59,6 @@ a.block {
   display:block;
   text-align: center;
   text-decoration: none;
-  float: left;
 }
 
 a.block:hover {
@@ -156,17 +155,19 @@ a.block:hover {
   background-repeat: no-repeat;
   padding: 0;
   margin: 0;
+  float: left;
 }
 
 .oldwivestales {
   width: 20vmin;
-  height: 29vmin;
+  height: 28vmin;
   background-image: url("/work/oldwivestales.png");
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
   padding: 0;
   margin: 0;
+  float: left;
 }
 
 .parachute {
@@ -178,6 +179,7 @@ a.block:hover {
   background-repeat: no-repeat;
   padding: 0;
   margin: 0;
+  float: left;
 }
 
 .theelephant {
@@ -189,6 +191,7 @@ a.block:hover {
   background-repeat: no-repeat;
   padding: 0;
   margin: 0;
+  float: left;
 }
 
 .twoartists {
@@ -200,6 +203,7 @@ a.block:hover {
   background-repeat: no-repeat;
   padding: 0;
   margin: 0;
+  float: left;
 }
 
 .wardrobe {
@@ -211,6 +215,7 @@ a.block:hover {
   background-repeat: no-repeat;
   padding: 0;
   margin: 0;
+  float: left;
 }
 
 
