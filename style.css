@@ -59,7 +59,6 @@ a.block {
   display:block;
   text-align: center;
   text-decoration: none;
-  color: red;
 }
 
 a.block:hover {
@@ -144,6 +143,17 @@ a.block:hover {
   float: left;
 }
 
+.para {
+  width: 500px;
+  height: 500px;
+  background-image: url("parachute.png");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin: 0;
+  padding: 0;
+}
+
 h2 {
   text-align: left;
   font-size:1em;
@@ -163,6 +173,14 @@ tr td {
 td:nth-child(1) {
   text-align: right;
 }
+
+div.workcontainer {
+  width: 80%;
+  margin-left: : auto;
+  margin-right: auto;
+}
+
+div.grid-item { width = 600px}
 
 @media screen and (max-width: 950px) {
   div.wrapper{
