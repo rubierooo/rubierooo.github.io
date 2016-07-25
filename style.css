@@ -144,9 +144,9 @@ a.block:hover {
 }
 
 .parachute {
-  width: 500px;
-  height: 500px;
-  background-image: url("parachute.png");
+  width: 40%;
+  height: 40%;
+  background-image: url("/work/parachute.png");
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
