@@ -178,6 +178,19 @@ p.halfacross {
   float: left;
 }
 
+.beckroad {
+  width: 40vmin;
+  height: 45vmin;
+  background-image: url("/work/beckroad.png");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  padding: 0;
+  margin: 0;
+  float: left;
+
+}
+
 .daughter {
   width: 60vmin;
   height: 40vmin;
