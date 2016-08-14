@@ -9,24 +9,37 @@
         type="image/png"
         href="favicon.ico" />
   <title>Ruben Green - Work</title>
-  <script src="/work/masonry.pkgd.min.js"></script>
-  <script src="/work/jquery-3.1.0.min.js"></script>
 </head>
 
 <body class="pink">
 <div id="mainContainer">
-  <div class="workcontainer" data-masonry='{ "itemSelector": ".block" ; "columnWidth": "20vmin";}'>
+  <div class="workContainer">
+    <a class="block oldwivestales" href="/work/oldwivestales.html"></a>
+    <a class="block organdance" href="/work/organdance.html"><a>
+    <a class="block wardrobe" href="/work/wardrobe.html"></a>
+    <a class="block parachute" href="/work/parachute.html"></a>
+    <a class="block twoartists" href="/work/twoartists.html"></a>
+    <a class="block guitar" href="/work/tools.html"></a>
+    <a class="block daughter" href="/work/daughter.html"></a>
+    <a class="block beckroad" href="/work/beckroad.html"></a>
+    <a class="block theelephant" href="/work/theelephant.html"></a>
     <a class="block planes" href="/work/planes.html"></a>
     <a class="block canonbury" href="/work/canonburysquare.html"></a>
-    <a class="block beckroad" href="/work/beckroad.html"></a>
-    <a class="block daughter" href="/work/daughter.html"></a>
-    <a class="block theelephant" href="/work/theelephant.html"></a>
-    <a class="block guitar" href="/work/tools.html"></a>
-    <a class="block twoartists" href="/work/twoartists.html"></a>
-    <a class="block parachute" href="/work/parachute.html"></a>
-    <a class="block oldwivestales" href="/work/oldwivestales.html"></a>
-    <a class="block wardrobe" href="/work/wardrobe.html"></a>
-    <a class="block organdance" href="/work/organdance.html"><a>
   </div>
 </div>
+
+<script src="/work/masonry.pkgd.min.js"></script>
+<script src="/work/jquery-3.1.0.min.js"></script>
+<script>
+var elem = document.querySelector('.workContainer');
+var msnry = new Masonry( elem, {
+  // options
+  itemSelector: '.block',
+  originTop: false,
+  originLeft: false,
+  transitionDuration: 0
+//  columnWidth: '200vmin'
+});
+</script>
+
 </body>
