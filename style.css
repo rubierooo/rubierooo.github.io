@@ -24,6 +24,9 @@ body.black {
   color: magenta;
 }
 
+.thing {
+
+}
 
 body.image {
   background-image: url("essaybg.png");
@@ -180,7 +183,7 @@ p.halfacross {
 
 .beckroad {
   width: 40vmin;
-  height: 45vmin;
+  height: 40vmin;
   background-image: url("/work/beckroad.png");
   background-position: center;
   background-size: contain;
