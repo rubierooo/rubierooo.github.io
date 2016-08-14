@@ -74,7 +74,7 @@ a.block:hover {
 
 p.halfacross {
   width: 50%;
-  float: right;
+  padding-left: 50%;
 }
 
 .banner {
