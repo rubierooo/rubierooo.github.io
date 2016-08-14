@@ -155,7 +155,17 @@ p.halfacross {
   float: left;
 }
 
-
+.planes {
+  width: 40vmin;
+  height: 32vmin;
+  background-image: url("/work/planes.png");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  padding: 0;
+  margin: 0;
+  float: left;
+}
 .canonbury {
   width: 20vmin;
   height: 15vmin;
