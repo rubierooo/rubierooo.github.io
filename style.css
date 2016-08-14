@@ -25,7 +25,8 @@ body.black {
 }
 
 .thing {
-
+  width: 25vmin;
+  height: auto;
 }
 
 body.image {
