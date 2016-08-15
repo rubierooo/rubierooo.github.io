@@ -27,6 +27,7 @@ body.black {
 .thing {
   width: 300px;
   height: auto;
+  margin-bottom: 10px
 }
 
 body.image {
@@ -291,6 +292,18 @@ p.halfacross {
   float: left;
 }
 
+.greatgreentour {
+  width: 20vmin;
+  height: 20vmin;
+  background-image: url("/work/greatgreentour.png");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  padding: 0;
+  margin: 0;
+  float: left;
+}
+
 h2 {
   text-align: left;
   font-size:1em;
@@ -311,7 +324,7 @@ td:nth-child(1) {
   text-align: right;
 }
 
-.workContainer {
+div.workContainer {
   width: 100vmin;
   margin-left: auto;
   margin-right: auto;
@@ -321,6 +334,7 @@ div.imagegrid {
   width: 98vw;
   margin-left: auto;
   margin-right: auto;
+
 }
 
 @media screen and (max-width: 950px) {
