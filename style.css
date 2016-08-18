@@ -281,8 +281,8 @@ p.halfacross {
 }
 
 .tapecharmer {
-  width: 20vmin;
-  height: 22vmin;
+  width: 40vmin;
+  height: 30vmin;
   background-image: url("/work/tapecharmer.png");
   background-position: center;
   background-size: contain;
