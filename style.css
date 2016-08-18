@@ -304,6 +304,18 @@ p.halfacross {
   float: left;
 }
 
+.blue {
+  width: 20vmin;
+  height: 30vmin;
+  background-image: url("/work/blue.png");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  padding: 0;
+  margin: 0;
+  float: left;
+}
+
 h2 {
   text-align: left;
   font-size:1em;
