@@ -210,7 +210,7 @@ p.halfacross {
 
 .guitar {
   width: 40vmin;
-  height: 70vmin;
+  height: 55vmin;
   background-image: url("/work/guitar.png");
   background-position: center;
   background-size: contain;
@@ -283,7 +283,7 @@ p.halfacross {
 .tapecharmer {
   width: 20vmin;
   height: 22vmin;
-  background-image: url("/work/organdance.png");
+  background-image: url("/work/tapecharmer.png");
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
