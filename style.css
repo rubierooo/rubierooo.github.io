@@ -280,6 +280,18 @@ p.halfacross {
   float: left;
 }
 
+.tapecharmer {
+  width: 20vmin;
+  height: 22vmin;
+  background-image: url("/work/organdance.png");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  padding: 0;
+  margin: 0;
+  float: left;
+}
+
 .organdance {
   width: 40vmin;
   height: 30vmin;
