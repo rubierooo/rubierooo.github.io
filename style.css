@@ -33,7 +33,7 @@ body.black {
 body.image {
   background-image: url("essaybg.png");
   background-size: cover;
-  background-position: center;
+  background-position: right;
   background-attachment: fixed;
   margin: 0px
 }
@@ -50,7 +50,7 @@ body.para {
 
 div.wrapper {
   width: 60%;
-  margin-left: 150;
+  margin-left: 0;
   margin-top: 0;
   padding: 0;
 }
@@ -61,8 +61,8 @@ div.textblock {
   margin: auto;
   padding-top: 50px;
   padding-bottom: 30px;
-  padding-left: 50px;
-  padding-right: 20px;
+  padding-left: 150px;
+  padding-right: 50px;
   background-color: magenta;
   float:left;
 }
@@ -376,10 +376,13 @@ div.imagegrid {
 @media screen and (max-width: 950px) {
   div.wrapper{
     width: 80%;
-    margin-left: 100px;
+    margin-left: 0px;
   }
   .works .bandcamp {
     height: 10%;
+  }
+  div.textblock {
+    padding-left: 50px;
   }
 }
 
@@ -390,5 +393,8 @@ div.imagegrid {
   }
   .works .bandcamp {
     height: 8%;
+  }
+  div.textblock {
+    padding-left: 20px;
   }
 }
