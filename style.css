@@ -117,15 +117,23 @@ p.halfacross {
 }
 
 .insta {
-  width:50%;
+  width:30%;
   height:6%;
   background-image: url("insta.png");
   background-size: cover;
   float:left;
 }
 
-.twitter {
+.facebook {
   width:30%;
+  height:6%;
+  background-image: url("facebook.png");
+  background-size: cover;
+  float:left;
+}
+
+.twitter {
+  width:20%;
   height:6%;
   background-image: url("twitter.png");
   background-size: cover;
