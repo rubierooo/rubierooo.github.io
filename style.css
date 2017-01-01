@@ -112,7 +112,7 @@ p.halfacross {
   height:13%;
   background-image: url("work.png");
   background-size: cover;
-  background-position: left;;
+  background-position: left;
   float: left;
 }
 
@@ -129,6 +129,7 @@ p.halfacross {
   height:6%;
   background-image: url("facebook.png");
   background-size: cover;
+  background-position: center;;
   float:left;
 }
 
