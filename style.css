@@ -156,6 +156,18 @@ p.halfacross {
   float: left;
 }
 
+.oyropeandream {
+  width: 20vmin;
+  height: 40vmin;
+  background-image: url("/work/oyropeandream.png");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  padding: 0;
+  margin: 0;
+  float: left;
+}
+
 .daughter2 {
   width: 60vmin;
   height: 20vmin;
