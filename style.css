@@ -32,6 +32,7 @@ body.black {
 
 body.image {
   background-image: url("essaybg.png");
+  background-color: ##ffe65d;
   background-size: cover;
   background-position: right;
   background-attachment: fixed;
@@ -428,7 +429,7 @@ div.imagegrid {
   div.textblock {
     padding-left: 50px;
     padding-right: 50px;
-    background-color: white;
+    background-color: #ffe65d;
   }
 }
 
@@ -443,6 +444,6 @@ div.imagegrid {
   div.textblock {
     padding-left: 20px;
     padding-right: 20px;
-    background-color: white;
+    background-color: #ffe65d;
   }
 }
