@@ -156,6 +156,18 @@ p.halfacross {
   float: left;
 }
 
+.daughter2 {
+  width: 60vmin;
+  height: 20vmin;
+  background-image: url("/work/daughter2.png");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  padding: 0;
+  margin: 0;
+  float: left;
+}
+
 .between {
   width: 20vmin;
   height: 120vmin;
