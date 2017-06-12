@@ -87,8 +87,16 @@ div.right {
     #ffd800,
     #ffd800 10px,
     #ffbf00 10px,
-    #ffbf00 12px
+    #ffbf00 13px
   );
+}
+
+.lithuania {
+  background-color: #1e64af;
+  background-image: url(lithuania.jpg);
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: contain;
 }
 
 .border {
@@ -107,6 +115,25 @@ div.right {
     font-family: Georgia, serif;
 }
 
+.serious {
+  border-style: double;
+  background-color: rgba(255, 255, 255, 0.8);
+  border-width: 4px;
+  border-color: #FF00FF;
+  border-radius: 2px;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  padding-left: 1em;
+  padding-right: 1em;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  margin-bottom: 1em;
+  font-size: 0.8em;
+    font-family: Georgia, serif;
+  font-weight: lighter;
+}
+
 .image {
   box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -123,10 +150,15 @@ div.right {
   background-color: rgba(0,0,0,0);
 }
 
+.hairline {
+  border-width: 1px;
+  border-style: solid;
+}
+
 h1 {
   font-family: Georgia, serif;
   text-align: right;
-  text-shadow: 3px 2px rgba(255,0,255,100);
+  text-shadow: 3px 2px rgba(255,0,255,0.8);
 }
 
 h2 {
@@ -152,6 +184,10 @@ h4 {
 
 lh {
   font-weight: bold;
+}
+
+a {
+  text-decoration: inherit;
 }
 
 @media only screen
