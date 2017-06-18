@@ -47,6 +47,7 @@ body.para {
 }
 
 div.wrapper {
+  float:right;
   width: 60%;
   margin-left: 0;
   margin-top: 0;
