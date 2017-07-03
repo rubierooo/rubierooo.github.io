@@ -1,20 +1,22 @@
 body {
     font-family: "Courier New", Courier, monospace;
     font-size:1em;
-    overflow: hidden;
     margin: 0;
     padding: 0;
+    overflow: scroll;
+    display: flex;
 }
 
 div {
   background-color: white;
 }
 
-div.left {
-  float: left;
-  width: 34%;
-  height: 100%;
+.left, .right, .middle {
+  min-height: 100%;
   padding: 1em;
+  margin: 0;
+  flex: 1;
+  width: 33.3333%;
   box-sizing: border-box;
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
@@ -23,7 +25,7 @@ div.left {
 div.logo {
   background-color:rgba(0, 0, 0, 0);
   width: 30vw;
-  height: 30vw;
+  height: 28vw;
   margin: auto;
   background-size: contain;
   background-image: url(logo.png);
@@ -43,26 +45,6 @@ div.navigation {
   margin-left: auto;
   margin-right: auto;
   padding-right: 2em;
-}
-
-div.middle {
-  float: left;
-  width: 33%;
-  height: 100%;
-  padding: 1em;
-  box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  -webkit-box-sizing: border-box;
-}
-
-div.right {
-  float: left;
-  width: 33%;
-  height: 100%;
-  padding: 1em;
-  box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  -webkit-box-sizing: border-box;
 }
 
 .floralbg {
@@ -193,35 +175,29 @@ a {
 @media only screen
 and (max-width : 1000px) {
   body {
-    font-size:0.8em;
+    font-size:0.6em;
   }
 }
 
-/* Smartphones (portrait) */
+
+/* Smartphones (portrait)
 @media only screen
 and (max-width : 650px) {
   body {
     font-size:0.7em;
+    display: inline;
   }
 
   div.left {
-    float: left;
     width: 100%;
     height: 180px;
     padding: 1%;
+    float: none;
   }
 
-  div.middle {
-    float: left;
-    width: 50%;
-    height: 78%;
-    padding: 1%;
-  }
-
-  div.right {
-    float: left;
-    width: 50%;
-    height: 78%;
+  .middle, .right {
+    float: none;
+    width: 100%
     padding: 1%;
   }
 
@@ -243,3 +219,4 @@ and (max-width : 650px) {
     overflow-y:auto;
   }
 }
+*/
