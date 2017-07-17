@@ -34,7 +34,7 @@ body.image {
   background-image: url("essaybg.png");
   background-color: ##ffe65d;
   background-size: cover;
-  background-position: right;
+  background-position: left;
   background-attachment: fixed;
   margin: 0px
 }
