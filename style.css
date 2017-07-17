@@ -159,8 +159,8 @@ p.halfacross {
 }
 
 .tailbend {
-    width:400px;
-    height:400px;
+    width:100px;
+    height:100px;
     background-image: url("/tailbend/logo.png");
     background-size: cover;
     position: absolute;
