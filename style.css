@@ -102,7 +102,7 @@ p.halfacross {
 
 .bandcamp {
   width:50%;
-  height:7%;
+  height:10%;
   background-image: url("buymusic.png");
   background-size: cover;
   background-position: left;
@@ -111,7 +111,7 @@ p.halfacross {
 
 .writing {
   width:50%;
-  height:7%;
+  height:10%;
   background-image: url("writing.png");
   background-size: cover;
   background-position: left;
@@ -120,7 +120,7 @@ p.halfacross {
 
 .works {
   width:70%;
-  height:9%;
+  height:10%;
   background-image: url("work.png");
   background-size: cover;
   background-position: left;
@@ -128,7 +128,7 @@ p.halfacross {
 }
 
 .insta {
-  width:30%;
+  width:35%;
   height:5%;
   background-image: url("insta.png");
   background-size: cover;
@@ -145,14 +145,14 @@ p.halfacross {
 
 .email {
   width:30%;
-  height:7%;
+  height:10%;
   background-image: url("email.png");
-  background-size: cover;
+  background-size: contain;
   float:right;
 }
 
 .audio {
-  width:25%;
+  width:30%;
   height:5%;
   background-image: url("audio.png");
   background-size: cover;
