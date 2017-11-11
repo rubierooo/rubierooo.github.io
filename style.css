@@ -102,7 +102,7 @@ p.halfacross {
 
 .bandcamp {
   width:50%;
-  height:8%;
+  height:7%;
   background-image: url("buymusic.png");
   background-size: cover;
   background-position: left;
@@ -110,8 +110,8 @@ p.halfacross {
 }
 
 .writing {
-  width:60%;
-  height:8%;
+  width:50%;
+  height:7%;
   background-image: url("writing.png");
   background-size: cover;
   background-position: left;
@@ -120,7 +120,7 @@ p.halfacross {
 
 .works {
   width:80%;
-  height:8%;
+  height:9%;
   background-image: url("work.png");
   background-size: cover;
   background-position: left;
