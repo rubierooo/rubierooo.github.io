@@ -148,6 +148,7 @@ p.halfacross {
   height:10%;
   background-image: url("email.png");
   background-size: contain;
+  background-repeat: no-repeat;
   float:right;
 }
 
@@ -175,6 +176,30 @@ p.halfacross {
     position: absolute;
     left: 100px;
     top: 150px;
+}
+
+.seasong {
+  width: 60vmin;
+  height: 20vmin;
+  background-image: url("/work/seasong.png");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  padding: 0;
+  margin: 0;
+  float: left;
+}
+
+.sunsetsinging {
+  width: 60vmin;
+  height: 40vmin;
+  background-image: url("/work/sunsetsinging.png");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  padding: 0;
+  margin: 0;
+  float: left;
 }
 
 .oyropeandream {
