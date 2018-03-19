@@ -1,5 +1,5 @@
 body {
-    font-family: "Helvetica", sans-serif;
+    font-family: "Georgia", serif;
     font-size:1em;
     overflow: hidden;;
 }
@@ -14,14 +14,14 @@ body {
   }
 
 body.pink {
-  background-color: magenta;
+  background-color: #ffe14c;
   margin: 0px
 }
 
 body.black {
   background-color: black;
   margin: 0px;
-  color: magenta;
+  color: #ffe14c;
 }
 
 .thing {
@@ -72,7 +72,7 @@ a.block {
 }
 
 a.block:hover {
-  background-color: yellow;
+  background-color: magenta;
 }
 
 p.halfacross {
@@ -195,7 +195,7 @@ p.halfacross {
 .seasong {
   width: 60vmin;
   height: 20vmin;
-  background-image: url("/work/seasong.png");
+  background-image: url("work/seasong.png");
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
@@ -207,7 +207,7 @@ p.halfacross {
 .sunsetsinging {
   width: 40vmin;
   height: 20vmin;
-  background-image: url("/work/sunsetsinging.png");
+  background-image: url("work/sunsetsinging.png");
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
@@ -219,7 +219,7 @@ p.halfacross {
 .oyropeandream {
   width: 20vmin;
   height: 40vmin;
-  background-image: url("/work/oyropeandream.png");
+  background-image: url("work/oyropeandream.png");
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
@@ -231,7 +231,7 @@ p.halfacross {
 .daughter2 {
   width: 60vmin;
   height: 20vmin;
-  background-image: url("/work/daughter2.png");
+  background-image: url("work/daughter2.png");
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
@@ -243,7 +243,7 @@ p.halfacross {
 .between {
   width: 20vmin;
   height: 80vmin;
-  background-image: url("/work/between.png");
+  background-image: url("work/between.png");
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
@@ -255,7 +255,7 @@ p.halfacross {
 .mud {
   width: 40vmin;
   height: 20vmin;
-  background-image: url("/work/mud.png");
+  background-image: url("work/mud.png");
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
@@ -267,7 +267,7 @@ p.halfacross {
 .londonbridge {
   width: 20vmin;
   height: 20vmin;
-  background-image: url("/work/londonbridge.png");
+  background-image: url("work/londonbridge.png");
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
@@ -279,7 +279,7 @@ p.halfacross {
 .planes {
   width: 40vmin;
   height: 32vmin;
-  background-image: url("/work/planes.png");
+  background-image: url("work/planes.png");
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
@@ -290,7 +290,7 @@ p.halfacross {
 .canonbury {
   width: 20vmin;
   height: 15vmin;
-  background-image: url("/work/canonburysquare.png");
+  background-image: url("work/canonburysquare.png");
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
@@ -302,7 +302,7 @@ p.halfacross {
 .beckroad {
   width: 40vmin;
   height: 40vmin;
-  background-image: url("/work/beckroad.png");
+  background-image: url("work/beckroad.png");
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
@@ -315,7 +315,7 @@ p.halfacross {
 .daughter {
   width: 40vmin;
   height: 24vmin;
-  background-image: url("/work/daughter.png");
+  background-image: url("work/daughter.png");
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
@@ -327,7 +327,7 @@ p.halfacross {
 .guitar {
   width: 40vmin;
   height: 55vmin;
-  background-image: url("/work/guitar.png");
+  background-image: url("work/guitar.png");
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
@@ -339,7 +339,7 @@ p.halfacross {
 .oldwivestales {
   width: 20vmin;
   height: 28vmin;
-  background-image: url("/work/oldwivestales.png");
+  background-image: url("work/oldwivestales.png");
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
@@ -351,7 +351,7 @@ p.halfacross {
 .parachute {
   width: 40vmin;
   height: 40vmin;
-  background-image: url("/work/parachute.png");
+  background-image: url("work/parachute.png");
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
@@ -363,7 +363,7 @@ p.halfacross {
 .theelephant {
   width: 20vmin;
   height: 35vmin;
-  background-image: url("/work/theelephant.png");
+  background-image: url("work/theelephant.png");
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
@@ -375,7 +375,7 @@ p.halfacross {
 .twoartists {
   width: 60vmin;
   height: 70vmin;
-  background-image: url("/work/twoartists.png");
+  background-image: url("work/twoartists.png");
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
@@ -387,7 +387,7 @@ p.halfacross {
 .wardrobe {
   width: 40vmin;
   height: 50vmin;
-  background-image: url("/work/wardrobe.png");
+  background-image: url("work/wardrobe.png");
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
@@ -399,7 +399,7 @@ p.halfacross {
 .tapecharmer {
   width: 20vmin;
   height: 20vmin;
-  background-image: url("/work/tapecharmer.png");
+  background-image: url("work/tapecharmer.png");
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
@@ -411,7 +411,7 @@ p.halfacross {
 .organdance {
   width: 60vmin;
   height: 35vmin;
-  background-image: url("/work/organdance.png");
+  background-image: url("work/organdance.png");
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
@@ -423,7 +423,7 @@ p.halfacross {
 .greatgreentour {
   width: 40vmin;
   height: 40vmin;
-  background-image: url("/work/greatgreentour.png");
+  background-image: url("work/greatgreentour.png");
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
@@ -435,7 +435,7 @@ p.halfacross {
 .blue {
   width: 20vmin;
   height: 30vmin;
-  background-image: url("/work/blue.png");
+  background-image: url("work/blue.png");
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
@@ -464,17 +464,26 @@ td:nth-child(1) {
   text-align: right;
 }
 
-div.workContainer {
-  width: 100vmin;
+div.mainMenu {
   margin-left: auto;
-  margin-right: auto;
+  text-align: right;
+  margin-top: 3em;
+  margin-bottom: 2em;
 }
 
-div.imagegrid {
-  width: 98vw;
-  margin-left: auto;
-  margin-right: auto;
+a.menuItem {
+  font-size: 2.5em;
+  text-decoration: none;
+  color: black;
+}
 
+a.menuItem:hover {
+  background-color: magenta;
+}
+
+div.workContainer {
+  width: 120vmin;
+  margin-left: auto;
 }
 
 @media screen and (max-width: 950px) {
@@ -489,6 +498,10 @@ div.imagegrid {
     padding-left: 50px;
     padding-right: 50px;
     background-color: #ffe65d;
+  }
+  div.workContainer {
+    width: 100vmin;
+    margin-left: auto;
   }
 }
 
