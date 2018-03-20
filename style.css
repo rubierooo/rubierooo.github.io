@@ -498,6 +498,12 @@ div.workContainer {
   margin-left: auto;
 }
 
+.billingnote {
+  color: #b78b45;
+  font-size: 0.6em;
+  line-height: 0.6em
+}
+
 @media screen and (max-width: 950px) {
   div.wrapper{
     width: 80%;
