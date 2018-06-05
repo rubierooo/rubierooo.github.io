@@ -12,7 +12,6 @@ div.menucolumn {
   padding-right: 1em;
   padding-top: 1em;
   margin-top: 0;
-  background-color: rgba(255, 255, 255, 0.3);
   height: 100%;
   box-sizing:border-box;
 }
@@ -65,6 +64,13 @@ h4 {
   margin-top:0.5em;
 }
 
+h5 {
+  text-transform: capitalize;
+  font-size: 1.3em;
+  letter-spacing: 0.2em;
+  margin: 0;
+}
+
 span.hl {
   background-color: rgba(255, 255, 0, 0.7);
 }
@@ -89,7 +95,7 @@ a.menuItem:hover {
   div.menucolumn {
     float:left;
     width: 100%;
-    padding: 0;
+    padding: 0.5em;
     margin-top: 0;
     height: auto;
   }
@@ -98,7 +104,7 @@ a.menuItem:hover {
     float:left;
     width: 100%;
     margin-left: 0;
-    margin-top: 1em;
-    padding: 0;
+    margin-top: 0.5em;
+    padding: 0.5em;
   }
 }
