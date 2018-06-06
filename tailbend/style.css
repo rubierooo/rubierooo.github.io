@@ -113,7 +113,7 @@ a:hover {
   font-weight: normal;
   color: inherit;
   margin: 0.3em;
-  padding: 0;
+  padding-left: 0.3em;
 }
 
 a.menuItem:hover {
