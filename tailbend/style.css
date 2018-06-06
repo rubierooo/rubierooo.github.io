@@ -3,6 +3,9 @@ body {
     font-size:1em;
     background: linear-gradient(#21ecff, #4fa5dd);
     margin: 0em;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 div.menucolumn {
@@ -18,13 +21,12 @@ div.menucolumn {
 
 div.content {
   float:left;
-  width: 60%;
+  width: 65%;
   padding-left: 1em;
   padding-top: 0em;
   margin-top: 0;
   margin-right: 1em;
   box-sizing:border-box;
-
 }
 
 h1 {
@@ -119,6 +121,41 @@ a.menuItem:hover {
   text-decoration-color: yellow;
   text-decoration-style: wavy;
   background-color: inherit;
+}
+
+img {
+  display: block;
+  float: left;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  margin-right: 1em;
+  margin-left: 0;
+  box-sizing: border-box;
+}
+
+img.full {
+  width: 100%;
+  margin-right: 0;
+}
+
+div.box {
+  background-color: rgba(255,255,255,0.5);
+  border-width: 3px;
+  border-style: solid;
+  border-color: cyan;
+  float: left;
+  padding: 0.5em;
+  margin: 1em;
+}
+
+div.poem {
+  float: left;
+  padding: 0.5em;
+  margin: 1em;
+  max-width: 30em;
+  font-weight: bold;
+  font-style: italic;
+  text-shadow: 1px 1px rgba(255,0,255,0.5), -1px -1px rgba(255,0,255,0.5), -1px 1px rgba(255,0,255,0.5), 1px -1px rgba(255,0,255,0.5);
 }
 
 @media screen and (max-width: 950px) {
