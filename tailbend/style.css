@@ -111,12 +111,13 @@ a:hover {
   display: block;
   text-decoration: none;
   font-weight: normal;
-  color: black;
+  color: inherit;
   margin: 0.3em;
   padding: 0;
 }
 
 a.menuItem:hover {
+  color: inherit;
   text-decoration: line-through;
   text-decoration-color: yellow;
   text-decoration-style: wavy;
