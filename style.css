@@ -204,9 +204,33 @@ p.halfacross {
     top: 150px;
 }
 
+.dangler {
+  width: 40vmin;
+  height: 60vmin;
+  background-image: url("work/dangler.png");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  padding: 0;
+  margin: 0;
+  float: left;
+}
+
+.tallmic {
+  width: 20vmin;
+  height: 60vmin;
+  background-image: url("work/tallmic.png");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  padding: 0;
+  margin: 0;
+  float: left;
+}
+
 .belyingifi {
-  width: 60vmin;
-  height: 40vmin;
+  width: 40vmin;
+  height: 30vmin;
   background-image: url("work/belyingifi.png");
   background-position: center;
   background-size: contain;
