@@ -55,12 +55,15 @@ div.wrapper {
 }
 
 div.pressrelease {
-  width: 50%;
-  min-width: 30em;
+  width: 100%;
   max-width: 50em;
-  margin:auto;
-  padding-left: 1em;
-  padding-right: 1em;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+p {
+    margin-left: 1em;
+    margin-right: 1em;
 }
 
 div.centre {
