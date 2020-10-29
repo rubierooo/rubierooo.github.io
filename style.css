@@ -104,15 +104,27 @@ a.nicelink {
   color: #345c9b;
 }
 
+a.nicelink:hover {
+  background-color: magenta;
+  color: black;
+}
+
 a.block {
+  box-sizing: border-box;
+  font-style: italic;
+  font-size: 1.2em;
+  padding-top: 2em;
   display:block;
   text-align: center;
   text-decoration: none;
+  color: rgba(0, 0, 0, 0);
 }
 
-a.block:hover, a.nicelink:hover {
+a.block:hover {
   background-color: magenta;
-  color: black;
+  color: #ffe14c;
+  text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.5), -1px -1px 0px rgba(0, 0, 0, 0.5), 1px -1px 0px rgba(0, 0, 0, 0.5), -1px 1px 0px rgba(0, 0, 0, 0.5);
+
 }
 
 p.halfacross {
@@ -228,19 +240,83 @@ p.halfacross {
   float: left;
 }
 
-.tailbend {
-    width:100px;
-    height:100px;
-    background-image: url("/tailbend/logo.png");
-    background-size: cover;
-    position: absolute;
-    left: 100px;
-    top: 150px;
+
+
+
+
+.swisschurch  {
+  width: 400px;
+  height: 450px;
+  background-image: url("work/swisschurch.png");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  padding: 0;
+  margin: 0;
+  float: left;
+}
+
+.artefact  {
+  width: 300px;
+  height: 300px;
+  background-image: url("work/artefact.png");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  padding: 0;
+  margin: 0;
+  float: left;
+}
+
+.borealis  {
+  width: 200px;
+  height: 250px;
+  background-image: url("work/borealis.png");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  padding: 0;
+  margin: 0;
+  float: left;
+}
+
+.BSOB  {
+  font-size: 1.5em;
+  width: 400px;
+  height: 300px;
+  background-image: url("work/BSOB.png");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  padding: 0;
+  margin: 0;
+  float: left;
+}
+
+.takeboth  {
+  text-align: right;
+  width: 400px;
+  height: 300px;
+  background-image: url("work/takeboth.png");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  padding: 0;
+  margin: 0;
+  float: left;
+}
+
+.tbt {
+    width:200px;
+    height:200px;
+    background-image: url("work/tbt.png");
+    background-size: contain;
 }
 
 .dangler {
-  width: 40vmin;
-  height: 60vmin;
+  writing-mode: vertical-rl;
+  width: 200px;
+  height: 300px;
   background-image: url("work/dangler.png");
   background-position: center;
   background-size: contain;
@@ -251,8 +327,8 @@ p.halfacross {
 }
 
 .tallmic {
-  width: 20vmin;
-  height: 60vmin;
+  width: 100px;
+  height: 300px;
   background-image: url("work/tallmic.png");
   background-position: center;
   background-size: contain;
@@ -263,8 +339,8 @@ p.halfacross {
 }
 
 .belyingifi {
-  width: 40vmin;
-  height: 30vmin;
+  width: 200px;
+  height: 150px;
   background-image: url("work/belyingifi.png");
   background-position: center;
   background-size: contain;
@@ -275,10 +351,11 @@ p.halfacross {
 }
 
 .seasong {
-  width: 60vmin;
-  height: 20vmin;
+  padding-top: 0;
+  width: 400px;
+  height: 150px;
   background-image: url("work/seasong.png");
-  background-position: center;
+  background-position: bottom;
   background-size: contain;
   background-repeat: no-repeat;
   padding: 0;
@@ -287,8 +364,8 @@ p.halfacross {
 }
 
 .sunsetsinging {
-  width: 40vmin;
-  height: 20vmin;
+  width: 200px;
+  height: 100px;
   background-image: url("work/sunsetsinging.png");
   background-position: center;
   background-size: contain;
@@ -299,8 +376,8 @@ p.halfacross {
 }
 
 .oyropeandream {
-  width: 20vmin;
-  height: 40vmin;
+  width: 90px;
+  height: 110px;
   background-image: url("work/oyropeandream.png");
   background-position: center;
   background-size: contain;
@@ -311,8 +388,8 @@ p.halfacross {
 }
 
 .daughter2 {
-  width: 60vmin;
-  height: 20vmin;
+  width: 300px;
+  height: 100px;
   background-image: url("work/daughter2.png");
   background-position: center;
   background-size: contain;
@@ -323,8 +400,8 @@ p.halfacross {
 }
 
 .between {
-  width: 20vmin;
-  height: 80vmin;
+  width: 100px;
+  height: 400px;
   background-image: url("work/between.png");
   background-position: center;
   background-size: contain;
@@ -335,8 +412,8 @@ p.halfacross {
 }
 
 .mud {
-  width: 40vmin;
-  height: 20vmin;
+  width: 200px;
+  height: 100px;
   background-image: url("work/mud.png");
   background-position: center;
   background-size: contain;
@@ -347,8 +424,8 @@ p.halfacross {
 }
 
 .londonbridge {
-  width: 20vmin;
-  height: 20vmin;
+  width: 100px;
+  height: 100px;
   background-image: url("work/londonbridge.png");
   background-position: center;
   background-size: contain;
@@ -359,8 +436,8 @@ p.halfacross {
 }
 
 .planes {
-  width: 40vmin;
-  height: 32vmin;
+  width: 200px;
+  height: 150px;
   background-image: url("work/planes.png");
   background-position: center;
   background-size: contain;
@@ -370,8 +447,8 @@ p.halfacross {
   float: left;
 }
 .canonbury {
-  width: 20vmin;
-  height: 15vmin;
+  width: 100px;
+  height: 80px;
   background-image: url("work/canonburysquare.png");
   background-position: center;
   background-size: contain;
@@ -382,8 +459,8 @@ p.halfacross {
 }
 
 .beckroad {
-  width: 40vmin;
-  height: 40vmin;
+  width: 200px;
+  height: 200px;
   background-image: url("work/beckroad.png");
   background-position: center;
   background-size: contain;
@@ -395,8 +472,8 @@ p.halfacross {
 }
 
 .daughter {
-  width: 40vmin;
-  height: 24vmin;
+  width: 200px;
+  height: 120px;
   background-image: url("work/daughter.png");
   background-position: center;
   background-size: contain;
@@ -407,8 +484,8 @@ p.halfacross {
 }
 
 .guitar {
-  width: 40vmin;
-  height: 55vmin;
+  width: 100px;
+  height: 150px;
   background-image: url("work/guitar.png");
   background-position: center;
   background-size: contain;
@@ -419,8 +496,8 @@ p.halfacross {
 }
 
 .oldwivestales {
-  width: 20vmin;
-  height: 28vmin;
+  width: 200px;
+  height: 140px;
   background-image: url("work/oldwivestales.png");
   background-position: center;
   background-size: contain;
@@ -431,8 +508,8 @@ p.halfacross {
 }
 
 .parachute {
-  width: 40vmin;
-  height: 40vmin;
+  width: 200px;
+  height: 200px;
   background-image: url("work/parachute.png");
   background-position: center;
   background-size: contain;
@@ -443,8 +520,8 @@ p.halfacross {
 }
 
 .theelephant {
-  width: 20vmin;
-  height: 35vmin;
+  width: 100px;
+  height: 170px;
   background-image: url("work/theelephant.png");
   background-position: center;
   background-size: contain;
@@ -455,8 +532,8 @@ p.halfacross {
 }
 
 .twoartists {
-  width: 60vmin;
-  height: 70vmin;
+  width: 120px;
+  height:140px;
   background-image: url("work/twoartists.png");
   background-position: center;
   background-size: contain;
@@ -467,8 +544,8 @@ p.halfacross {
 }
 
 .wardrobe {
-  width: 40vmin;
-  height: 50vmin;
+  width: 150px;
+  height: 200px;
   background-image: url("work/wardrobe.png");
   background-position: center;
   background-size: contain;
@@ -479,8 +556,8 @@ p.halfacross {
 }
 
 .tapecharmer {
-  width: 20vmin;
-  height: 20vmin;
+  width: 100px;
+  height: 100px;
   background-image: url("work/tapecharmer.png");
   background-position: center;
   background-size: contain;
@@ -491,8 +568,8 @@ p.halfacross {
 }
 
 .organdance {
-  width: 60vmin;
-  height: 35vmin;
+  width: 300px;
+  height: 150px;
   background-image: url("work/organdance.png");
   background-position: center;
   background-size: contain;
@@ -503,8 +580,8 @@ p.halfacross {
 }
 
 .greatgreentour {
-  width: 40vmin;
-  height: 40vmin;
+  width: 200px;
+  height: 200px;
   background-image: url("work/greatgreentour.png");
   background-position: center;
   background-size: contain;
@@ -515,8 +592,8 @@ p.halfacross {
 }
 
 .blue {
-  width: 20vmin;
-  height: 30vmin;
+  width: 100px;
+  height: 150px;
   background-image: url("work/blue.png");
   background-position: center;
   background-size: contain;
@@ -564,7 +641,7 @@ a.menuItem:hover {
 }
 
 div.workContainer {
-  width: 120vmin;
+  width: 80%;
   margin-left: auto;
 }
 
@@ -592,7 +669,7 @@ div.workContainer {
     background-color: #ffe65d;
   }
   div.workContainer {
-    width: 100vmin;
+    width: 100%;
     margin-left: auto;
   }
 
