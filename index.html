@@ -28,9 +28,15 @@
     var x = document.getElementsByClassName("h");
     for (i = 0; i < x.length; i++) {
       x[i].style.visibility = 'visible';
-    }
+    };
     document.getElementById("showbutton").style.visibility = 'hidden';
-  }
+  };
+
+  if(window.matchMedia("(pointer: coarse)").matches) {
+      // means its a touchscreen
+    showAll();
+  };
+
   </script>
 
 </head>
