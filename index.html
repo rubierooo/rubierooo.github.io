@@ -32,10 +32,10 @@
     document.getElementById("showbutton").style.visibility = 'hidden';
   };
 
-  if(window.matchMedia("(pointer: coarse)").matches) {
-    // means its a touchscreen
+  window.addEventListener('touchstart', function() {
+    // the user touched the screen!
     showAll();
-  };
+  });
 
   </script>
 
