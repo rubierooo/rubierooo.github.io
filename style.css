@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Princess+Sofia&display=swap');
 body {
     font-family: 'Atkinson Hyperlegible', sans-serif;
     font-size:1em;
@@ -47,13 +47,30 @@ body.para {
 }
 
 h1 {
-  display: inline;
-  font-size: inherit;
+  font-family: 'Princess Sofia', serif;
+  font-size: 2em;
+  margin-bottom: 0;
+  margin-top: 5px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
 }
 
 h2 {
-  font-size: inherit;
   margin-bottom: 0;
+  margin-top: 5px;
+  font-size: 1.3em;
+  letter-spacing: -1px;
+  font-style: italic;
+  font-weight: normal;
+  text-align: center;
+}
+
+h4 {
+  margin-bottom: 0;
+  margin-top:5px;
+  font-size: inherit;
+  letter-spacing:3px;
 }
 
 div.wrapper {
@@ -64,16 +81,14 @@ div.wrapper {
   padding: 0;
 }
 
-div.pressrelease {
-  width: 100%;
-  max-width: 50em;
-  margin-left: auto;
-  margin-right: auto;
-}
-
 p {
     margin-left: 1em;
     margin-right: 1em;
+    margin-top: 0;
+}
+
+ol {
+    margin-top: 0;
 }
 
 div.centre {
@@ -630,11 +645,6 @@ p.halfacross {
   padding: 0;
   margin: 0;
   float: left;
-}
-
-h2 {
-  text-align: left;
-  font-size:1em;
 }
 
 table {
